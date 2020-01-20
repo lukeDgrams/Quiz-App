@@ -5,3 +5,6 @@ Admins can create quizez, view quiz stats, and add/remove other users admin stat
 
 the other acess type is users: 
 Users can only take quizes and view there results.
+
+NOTE:
+this will not work becuase I removed my datbase info but the code is all there.
