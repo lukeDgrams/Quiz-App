@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.controllers.loginController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="530.0" prefWidth="719.0" style="-fx-background-color: #C4C4C4;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+         <children>
+            <Label layoutX="205.0" layoutY="34.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Quiz Taker" textFill="#4ce058">
+               <font>
+                  <Font name="Microsoft JhengHei Light" size="68.0" />
+               </font>
+            </Label>
+            <Button fx:id="login" defaultButton="true" layoutX="182.0" layoutY="241.0" mnemonicParsing="false" onAction="#login" prefHeight="49.0" prefWidth="379.0" style="-fx-background-color: #D413A7;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft JhengHei Light" size="14.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            <Button fx:id="createAccount" layoutX="150.0" layoutY="341.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="49.0" prefWidth="442.0" style="-fx-background-color: #D413A7;" text="Create Account" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft JhengHei Light" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

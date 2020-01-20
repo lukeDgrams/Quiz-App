@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.resultsController">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="530.0" prefWidth="719.0" style="-fx-background-color: #C4C4C4;" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+            <children>
+                <Label layoutX="254.0" layoutY="24.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Results" textFill="#4ce058">
+                    <font>
+                        <Font name="Microsoft JhengHei Light" size="68.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="profilePic" fitHeight="118.0" fitWidth="167.0" layoutX="552.0" pickOnBounds="true" preserveRatio="true" />
+                <Button fx:id="back" defaultButton="true" layoutX="280.0" layoutY="413.0" mnemonicParsing="false" onAction="#onBack" prefHeight="49.0" prefWidth="161.0" style="-fx-background-color: #D413A7;" text="Quiz Selection" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font name="Microsoft JhengHei Light" size="14.0" />
+                    </font>
+                </Button>
+                <Label fx:id="userName" layoutX="611.0" layoutY="125.0" text="Label" textAlignment="CENTER" textFill="#4ce058">
+                    <font>
+                        <Font name="Microsoft JhengHei Light" size="20.0" />
+                    </font>
+                </Label>
+            <Label fx:id="score" layoutX="372.0" layoutY="218.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Results" textFill="#4ce058">
+               <font>
+                  <Font name="Microsoft JhengHei Light" size="68.0" />
+               </font>
+            </Label>
+            <Label layoutX="172.0" layoutY="218.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Score:" textFill="#4ce058">
+               <font>
+                  <Font name="Microsoft JhengHei Light" size="68.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>
